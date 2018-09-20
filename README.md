@@ -1,2 +1,2 @@
-# JavaScript_Learning
+# JavaScript Learning
 Learning JS
