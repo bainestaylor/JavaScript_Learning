@@ -4,9 +4,10 @@ console.log('Hello World');
 let firstName = "Taylor";
 let lastName = "Baines";
 
-let firstName = lastName;
-let lastName = firstName
+let memory = firstName
+firstName = lastName;
+lastName = memory;
 
 //Print variables to console
-console.log(firstName);
-console.log(lastName);
+console.log("first name: " + firstName);
+console.log("last name: " + lastName);
