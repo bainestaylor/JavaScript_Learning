@@ -12,3 +12,5 @@ let StephaneMunro = ["Stephane", "Munro", 16, null, null, true, false];
 
 //calling functions, with arguments
 greet(TaylorBaines[0], TaylorBaines[1])
+greet(StephaneMunro[0], StephaneMunro[1])
+greet(square(TaylorBaines[2]), StephaneMunro[2])
