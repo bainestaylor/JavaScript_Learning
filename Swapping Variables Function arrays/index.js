@@ -1,9 +1,9 @@
 //Function goes here
-function switch(lastName1, lastName2) {
-  lastName1 = memory;
-  lastName2 = lastName1;
-  lastName2 = memory;
-  lastName1 = lastName2
+function rewriteLastNameBaines (lastName1, lastname2) {
+  return TaylorBaines[1] = lastname2;
+}
+function rewriteLastNameMunro (lastName1, lastname2) {
+  return StephaneMunro[1] = lastname2;
 }
 
 let TaylorBaines = [];
@@ -13,8 +13,11 @@ let StephaneMunro = [];
 TaylorBaines = ["Taylor", "Baines", 16, null, null, true, false];
 StephaneMunro = ["Stephane", "Munro", 16, null, null, true, false];
 
+rewriteLastNameBaines (TaylorBaines[1], StephaneMunro[1]);
+rewriteLastNameMunro (StephaneMunro[1], TaylorBaines[1]);
+
 //code goes here
-TaylorBaines[1] = StephaneMunro[1];
+switch (TaylorBaines[1], StephaneMunro[1]);
 
 // Print First names only
 console.log("Last name of TaylorBaines is: " + TaylorBaines[1]);
