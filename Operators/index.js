@@ -1,20 +1,22 @@
 function simpleOperators (numberA, numberB){
 
+  let adding = numberA + numberB;
+  let subtract = numberA - numberB;
+  let mutliply = numberA * numberB;
+  let divide = numberA / numberB;
+  console.log(adding);
+  console.log(subtract);
+  console.log(mutliply);
+  console.log(divide);
+
 }
 
-let number = [4, 7];
+let number = [4, 7, 17, 11];
+simpleOperators (number[0], number[1]);
+simpleOperators (number[2], number[3]);
 
-simpleOperators (numberA, numberB);
-let adding = numberA + numberB;
-let subtract = numberA - numberB;
-let multiply = numberA * numberB;
-let divide = numberA / numberB;
-let skipCount
-
-
-console.log(number);
-
-console.log(adding);
-console.log(subtract);
-console.log(multiply);
-console.log(divide);
+let skipCount = 15;
+for (let i=1; i<=5; i++){
+  skipCount *= 3;
+  console.log(skipCount);
+}
