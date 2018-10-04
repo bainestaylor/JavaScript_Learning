@@ -1,4 +1,4 @@
-let number = [1, 20]; //Boundary Numbers
+let number = [7, 34]; //Boundary Numbers
 console.log("First number in sequence is " + number [0]);
 console.log("Last number in sequence is " + number [1]);
 
